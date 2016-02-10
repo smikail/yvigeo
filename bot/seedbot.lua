@@ -222,6 +222,7 @@ function create_config( )
     "set",
     "get",
     "broadcast",
+    "info",
     "download_media",
     "invite",
     "all",
