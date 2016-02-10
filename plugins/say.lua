@@ -11,10 +11,10 @@ end
 
 return {
   description = "Reply Your Sent Message",
-  usage = "/echo (message) : reply message",
+  usage = "بگو (message) : reply message",
   patterns = {
-    "^(.*)$"
+    "^بگو +(.+)$"
   }, 
- run = run,
- moderated = true
+	run = run,
+	moderated = true
 }
