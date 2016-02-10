@@ -217,6 +217,8 @@ function create_config( )
     "anti_spam",
     "owners",
     "arabic_lock",
+    "addadmin",
+    "helpen",
     "set",
     "get",
     "broadcast",
