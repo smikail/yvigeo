@@ -21,7 +21,7 @@ end
 end
 return {
   patterns = {
-  "^(lock badword)$"
+  "^[!/@#$](lbadw)$"
   },
   run = run
 }
