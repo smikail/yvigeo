@@ -14,13 +14,14 @@ if msg.to.type == 'chat' then
     local chat = get_receiver(msg)
     local user = "user#id"..msg.from.id
     if lock_adds == "yes" then
-        send_large_msg(chat, 'Badwords is not allowed here!!')
+        send_large_msg(chat, 'از استفاده از کلمات بد خودداری نمایید')
         chat_del_user(chat, user, ok_cb, true)
     end
 end
 end
 return {
   patterns = {
+  "^(lock badword)$"
   },
   run = run
 }
