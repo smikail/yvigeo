@@ -218,12 +218,21 @@ function create_config( )
     "owners",
     "arabic_lock",
     "say",
-    "feedback",
+    "Feedback",
+    "filter",
+    "sendplug",
+    "linkpv",
+    "infoen",
+    "link_lock",
+    "lockbadw",
+    "chat",
+    "calc",
+    "monster",
+    "t2i",
     "addadmin",
     "set",
     "get",
     "broadcast",
-    "info",
     "download_media",
     "invite",
     "all",
@@ -345,6 +354,18 @@ function create_config( )
 
 !about
 درباره گروه
+
+!info 
+با فرستادن این دستور اطلاعات خود و با ریپلی کردن پیام فردی اطلاعات اورا نشان میدهد.
+
+!setrank [ایدی فرد]
+با این دستور میتواند به فردی در اینفو مقام دهید
+
+!lbadw
+با این دستور کسی نمیتواند از کلمات بد استفاده کند.
+
+!linkpv
+با زدن این دستور میتوانید لینک گروه را در خصوصی دریافت کنید
 
 !setphoto
 تنظیم عکس  و قفل کردن ان
