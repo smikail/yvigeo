@@ -18,3 +18,19 @@ local function run(msg)
 if msg.text == "هیولا" then
 	return " جان؟"
 end
+end
+
+return {
+	description = "Chat With Robot Server", 
+	usage = "chat with robot",
+	patterns = {
+		"^امیر$",
+		"^میکایئل$",
+		"^سلام$",
+		"^بای$",
+		"^هیولا$",
+		}, 
+	run = run,
+    --privileged = true,
+	pre_process = pre_process
+}
