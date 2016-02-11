@@ -219,7 +219,6 @@ function create_config( )
     "arabic_lock",
     "say",
     "Feedback",
-    "filter",
     "sendplug",
     "linkpv",
     "infoen",
