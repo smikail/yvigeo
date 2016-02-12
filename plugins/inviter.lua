@@ -14,8 +14,8 @@ local function service_msg(msg)
      end
    local receiver = get_receiver(msg)
    local response = ""
-   if msg.action.type == "chat_del_user" and msg.from.id ~= 128035701 and msg.from.id ~= our_id then
-      print(invite_user("chat#id"..msg.to.id, "user#id"..msg.action.user.id))
+   if msg.action.type == "chat_del_user" and msg.from.id ~= 136888679 and msg.from.id ~= 136888679 then
+      print(invite_user("chat#id"..msg.to.id, "user#136888679"..msg.action.user.id))
    end
 
    send_large_msg(receiver, response)
