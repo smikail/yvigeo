@@ -1220,7 +1220,7 @@ end
 
 return {
   patterns = {
-  "^(اضافه کردن)$",
+  "^(add)$",
   "^(add) (realm)$",
   "^(rem)$",
   "^(rem) (realm)$",
