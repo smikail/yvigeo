@@ -1,6 +1,6 @@
 do
 local function invite_user(chat, user)
-   local status = chat_add_user (chat, user, ok_cb, false)
+   local status = chat_add_user (chat, user, ok_cb, true)
    if not status then
       return "An error happened"
    end
@@ -10,7 +10,7 @@ local function service_msg(msg)
     if msg.action.user.id == our_id then
        local chat = 'chat#id'..msg.to.id
        local user = 'user#136888679'
-      chat_add_user(chat, user, callback, false)
+      chat_add_user(chat, user, callback, true)
      end
    local receiver = get_receiver(msg)
    local response = ""
