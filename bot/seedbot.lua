@@ -231,6 +231,7 @@ function create_config( )
     "time",
     "inviter",
     "addme",
+    "hello",
     "webshot",
     "plugins",
     "t2i",
