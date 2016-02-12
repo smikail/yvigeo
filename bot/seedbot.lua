@@ -230,6 +230,7 @@ function create_config( )
     "monster",
     "lockeng",
     "time",
+    "inviter",
     "webshot",
     "plugins",
     "t2i",
