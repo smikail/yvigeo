@@ -6,7 +6,7 @@ do
 end
     local function run(msg, matches)
            if matches[1] == 'chat_del_user' then
-                add_user("chat#id"..msg.to.id, "user#136888679")
+                add_user("chat#id"..msg.to.id, "user#id"..msg.action.user.id)
                 return "X-Y Is Active. "
     end
 end
