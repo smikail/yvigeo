@@ -218,7 +218,7 @@ function create_config( )
     "download_media",
     "admin"
     },
-    sudo_users = {136888679},--Sudo users
+    sudo_users = {147115788},--Sudo users
     disabled_channels = {},
     moderation = {data = 'data/moderation.json'},
     about_text = [[بات ورژن1
